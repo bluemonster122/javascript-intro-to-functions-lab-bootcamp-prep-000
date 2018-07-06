@@ -9,3 +9,16 @@ function whisper(string) {
 function logShout(string) {
   console.log("${shout(string)}")
 }
+
+function logWhisper(string) {
+  console.log("${whisper(string)}")
+}
+
+function sayHiToGrandma(string) {
+  if (string.isUpperCase()) {
+
+  }
+  if (string === "I love you, Grandma.") {
+    return "I love you, too."
+  }
+}
